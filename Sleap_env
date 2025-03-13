@@ -1,0 +1,58 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/stalris/QC_Internship/blob/main/Sleap_env\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!pip show sleap"
+      ],
+      "metadata": {
+        "id": "-wtX9et0RVa-",
+        "outputId": "817d4cb0-bc8b-46d6-8a71-606a6fea9a76",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Name: sleap\n",
+            "Version: 1.4.1a2\n",
+            "Summary: SLEAP (Social LEAP Estimates Animal Poses) is a deep learning framework for animal pose tracking.\n",
+            "Home-page: https://sleap.ai\n",
+            "Author: Talmo Pereira\n",
+            "Author-email: talmo@salk.edu\n",
+            "License: BSD 3-Clause License\n",
+            "Location: /usr/local/lib/python3.8/dist-packages\n",
+            "Requires: imgstore, nixio, pynwb, qimage2ndarray, segmentation-models\n",
+            "Required-by: \n"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
