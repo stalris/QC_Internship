@@ -1,0 +1,2 @@
+#!/bin/bash
+sleap-track C:/Users/theea/Documents/school/Amaryllis/QC_Internship/project.slp --video.index 0 --frames 166,872,952,1633,2739,3805,5154,5330,5601,5947,6248,7610,10023,10367,10421,10924,11007,11318,11418,11806 -m models\250331_182544.centroid -m models\250331_182544.centered_instance --controller_port 9000 --publish_port 9001 -o project.slp.predictions.slp --verbosity json --no-empty-frames
