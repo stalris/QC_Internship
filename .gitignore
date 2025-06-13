@@ -4,4 +4,6 @@
 .gitignore*
 !.gitignore
 test/
+*.crdownload
+*.swp
 

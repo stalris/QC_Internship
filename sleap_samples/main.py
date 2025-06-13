@@ -90,7 +90,7 @@ def draw_skeleton(points: np.array, color: str, ax: plt.Axes, mappings):
 # Third: X / Y
 # Fourth: instance (fly) number
 # Note that data is mirrored
-with (h5py.File('./fishyanalysis.h5', 'r') as f):
+with h5py.File('./fishyanalysis.h5', 'r') as f:
     # occupancy_matrix = f['track_occupancy'][:]
     tracks = f['tracks'][:]
     plot_border = 0.1
