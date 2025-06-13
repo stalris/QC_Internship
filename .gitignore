@@ -3,7 +3,8 @@
 *.bat*
 .gitignore*
 !.gitignore
-test/
+*/models
+*/predictions
 *.crdownload
 *.swp
-
+*.un~
