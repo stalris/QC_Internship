@@ -5,6 +5,7 @@
 !.gitignore
 */models
 */predictions
+/test
 *.crdownload
 *.swp
 *.un~
