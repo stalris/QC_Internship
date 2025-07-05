@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 try:
-    with h5.File('test.py', 'w') as file:
+    with h5.File('test.h5', 'w') as file:
         dataset = np.array([
             [
                 [1, 2, 3, 4],
@@ -23,7 +23,7 @@ except FileExistsError:
     # do nothing.
     pass
 
-with h5.File('test.py', 'r') as file:
+with h5.File('test.h5', 'r') as file:
     print(f"file['test_dataset']: \n\t{file['test_dataset']}")
     print()
 
